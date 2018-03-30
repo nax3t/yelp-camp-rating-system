@@ -4,7 +4,7 @@
 
 - Add [starability CSS](https://github.com/LunarLogic/starability) to public/stylesheets and link to it in views/partials/header.ejs
 - Create a public/starability-images directory and add starability's icons.png and icons@2x.png to it
-- Replace the form inside of views/comments/new.ejs with:
+- Replace the form inside of views/campgrounds/show with:
 
 ```
 <form action="/campgrounds/<%= campground._id %>/comments" method="POST">
